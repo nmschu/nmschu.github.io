@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Homework 3
+		</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	</head>
+	<body>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+
+		<!--Navigation bar-->
+		<div class="navbar navbar-inverse navbar-static-top">
+			<div class="container">
+				<h2 class="navbar-brand" style="color:white">Homework 3</h2>
+
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+					<span class="caret" style="color:white"></span>
+				</button>
+				<div class="collapse navbar-collapse navHeaderCollapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="index.html">Home</a></li>
+						<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown">Contact Me<b class="caret"></b></a>
+
+							<ul class="dropdown-menu">
+								<li><a href="http://www.facebook.com/nick.schuler.3">Facebook</a></li>
+								<li><a href="https://www.linkedin.com/in/nicholasschuler">LinkedIn</a></li>
+								<li><a href="message.html">Message Me</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+
+		<!--Jumbotron-->
+		<div class="container">
+			<div class="jumbotron">
+				<h1>Bootstrap</h1>
+				<p>Homework 3 has us using bootstrap in order to be able to resize the webpage and it automatically resize itself. We need to have 3 different parts you can click to navigate this website.</p>
+				I have it set up in the contact me section, it takes you to my Facebook account and LinkedIn account. When you click message me, a new window will appear where you "send" me an email for me to respond. And only "Something1" on the grid below will take you somewhere else. Something2 and Something3 will not take you anywhere if you press the button.</p>
+			</div>
+		</div>
+
+
+		<!--Grid-->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<h3>Something1</h3>
+					<p>Click for information on Something1</p>
+					<a href="page1.html" class="btn btn-default">Read more!</a>
+				</div>
+
+				<div class="col-sm-4">
+					<h3>Something2</h3>
+					<p>Click for information on Something2 (will not click)</p>
+					<a href="#" class="btn btn-default">Read more!</a>
+				</div>
+
+				<div class="col-sm-4">
+					<h3>Something3</h3>
+					<p>Click for information on Something3 (will not click)</p>
+					<a href="#" class="btn btn-default">Read more!</a>
+				</div>
+			</div>
+		</div>
+
+
+<!--Without these, I couldn't scroll down to the buttons. Here for scroll to see all-->
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		
+		
+		
+
+
+		<!--Bottom nav bar-->
+		<div class = "navbar navbar-default navbar-fixed-bottom">
+			<div class="container">
+				<p class ="navbar-text pull-left">I have too many student loans! Please help me!</p>
+				<a OnClick=alert("Thanks!") class="navbar-btn btn-success btn pull-right">Donate To Me</a>
+			</div>
+		</div>
+
+
+	</body>
+</html>
